@@ -16,7 +16,6 @@ PHP (ecursive acronym for PHP: Hypertext Preprocessor)는 널리 사용되는 �
         <?php
             echo "Hi, I'm a PHP script!";
         ?>
-
     </body>
 </html>
 ```
