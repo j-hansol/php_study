@@ -1,7 +1,7 @@
 # HTML에 포함된 스크립트
 
 아래 코드와 같이 HTML 속에 PHP가 포함되어 있으면 웹 서버는 해당 코드를 실행하여 코드를 대체하여 브라우즈로 전송하게 됩니다.
-```phpregexp
+```php
 <!DOCTYPE html>
 <html>
     <head>
