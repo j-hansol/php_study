@@ -5,7 +5,7 @@ PHP (ecursive acronym for PHP: Hypertext Preprocessor)는 널리 사용되는 �
 예를 들어 아래와 같이 사용할 수 있습니다. 물론 단독의 코드로도 이용 가능합니다.
 
 예제
-```php
+```phpregexp
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,7 +26,7 @@ PHP (ecursive acronym for PHP: Hypertext Preprocessor)는 널리 사용되는 �
 
 HTML에 포함되지 않을 경우 아래와 같이 별도의 파일로 저장 실행할 수 있습니다. 이 경우 "?>"는 생략할 수도 있습니다.
 위와 같이 HTML에 포함되었다고 해서 브라우즈에서 실행하는 것은 아닙니다.
-```php
+```phpregexp
 <?php
     echo "Hi, I'm a PHP script!";
 ?>
