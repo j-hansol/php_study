@@ -1,0 +1,16 @@
+# 자료형
+
+1. [소개](introduce.md "소개")
+2. [논리형](boolean.md "논리형")
+3. [정수형](inger.md "정수형")
+4. [실수형](float.md "실수형")
+5. [문자열형](string.md "문자열형")
+6. [숫자 문자열형](numeric_string.md "숫자 문자열형")
+7. [배열](array.md "배열")
+8. [나열형](iterable.md "나열형")
+9. [객체](object.md "객체")
+10. [자원](resouce.md "자원")
+11. [NULL](null.md "NULL")
+12. [콜백](callback.md "콟잭")
+13. [자료형 정의](type_declation.md "자료형 정의")
+14. [PHP 자료형 특성](type_juggling.md "PHP 자료형 특성")
