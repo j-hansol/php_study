@@ -45,13 +45,13 @@ if( $displayed ) {
 이해를 위해 아래의 예제를 입력하여 실행해보세요.
 ```php
 <?php
-var_dump((bool) "");        // bool(false)
-var_dump((bool) 1);         // bool(true)
-var_dump((bool) -2);        // bool(true)
-var_dump((bool) "foo");     // bool(true)
-var_dump((bool) 2.3e5);     // bool(true)
-var_dump((bool) array(12)); // bool(true)
-var_dump((bool) array());   // bool(false)
-var_dump((bool) "false");   // bool(true)
+    var_dump((bool) "");        // bool(false)
+    var_dump((bool) 1);         // bool(true)
+    var_dump((bool) -2);        // bool(true)
+    var_dump((bool) "foo");     // bool(true)
+    var_dump((bool) 2.3e5);     // bool(true)
+    var_dump((bool) array(12)); // bool(true)
+    var_dump((bool) array());   // bool(false)
+    var_dump((bool) "false");   // bool(true)
 ?>
 ```
