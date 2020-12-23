@@ -2,7 +2,7 @@
 
 1. [소개](introduce.md "소개")
 2. [논리형](boolean.md "논리형")
-3. [정수형](inger.md "정수형")
+3. [정수형](integer.md "정수형")
 4. [실수형](float.md "실수형")
 5. [문자열형](string.md "문자열형")
 6. [숫자 문자열형](numeric_string.md "숫자 문자열형")
