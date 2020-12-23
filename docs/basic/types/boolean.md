@@ -13,22 +13,24 @@ $b = False;
 외와 같이 논리형 값을 직접 지정할 수도 있지만 비교 연산자를 이용하여 참/거짓 여부를 계산할 수도 있습니다.
 이 결과는 제어 및 반복문에서 이용할 것입니다.
 ```php
-$input_action = "출력";
-
-if( $input_action == "출력" ) {
-    echo "콘텐츠 내용을 출력합니다.";
-}
-
-$displayed = $input_action == "출력";
-// 이렇게 사용할 필요는 없습니다.
-if( $displayed == TRUE ) {
-    echo "다시 한 번 더 출력합니다.";
-}
-
-// 이렇게 사용하는 것이 좋습니다.
-if( $displayed ) {
-    echo "다시 한 번 더 출력합니다.";
-}
+<?php
+    $input_action = "출력";
+    
+    if( $input_action == "출력" ) {
+        echo "콘텐츠 내용을 출력합니다.";
+    }
+    
+    $displayed = $input_action == "출력";
+    // 이렇게 사용할 필요는 없습니다.
+    if( $displayed == TRUE ) {
+        echo "다시 한 번 더 출력합니다.";
+    }
+    
+    // 이렇게 사용하는 것이 좋습니다.
+    if( $displayed ) {
+        echo "다시 한 번 더 출력합니다.";
+    }
+?>
 ```
 
 ## 논리형으로의 변환
